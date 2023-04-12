@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.전체 {
+    background-color: #E49393;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+/* 
+넓이는 부모의 넓이를 따라간다
+높이는 자식의 높이를 따라간다 */
+
+.전체 .자식1 {
+    width: 25%;
+    background-color: #62CDFF;
+    float: left;
+}
+
+.전체 .자식2 {
+    width: 25%;
+    background-color: #FFDD83;
+    float: left;
+}
+
+.전체 .자식3 {
+    width: 25%;
+    background-color: #36b484;
+    float: left;
+}
+
+.전체 .자식4 {
+    width: 25%;
+    background-color: #9E4784;
+    float: left;
+}
+
+.전체 .막내 {
+    background-color: red;
+    clear: left;
+}
+
+.바닥{background-color: #62CDFF;
+padding: 20px;
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+}
+.바닥 .자식{
+    width: 32%;
+    background-color: #E49393;
+    float: left;
+    margin-right: 2%;
+}
+.바닥 .자식3{margin-right: 0;}
+.바닥 .막내{
+    clear:left
+}
